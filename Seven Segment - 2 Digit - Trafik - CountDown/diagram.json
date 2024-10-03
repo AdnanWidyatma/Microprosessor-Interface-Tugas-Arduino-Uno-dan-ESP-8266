@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": 28.2, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -166.8, "left": 263, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led12", "top": -42, "left": 263, "attrs": { "color": "green" } },
+    {
+      "type": "wokwi-led",
+      "id": "led13",
+      "top": -109.2,
+      "left": 263,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -70.98,
+      "left": 67.76,
+      "attrs": { "common": "cathode", "digits": "2", "colon": "" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -38.5,
+      "left": -63.7,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "sevseg1:A", "uno:4", "#8f4814", [ "v-76.8", "h124.8" ] ],
+    [ "sevseg1:B", "uno:5", "orange", [ "v-67.2", "h19.2" ] ],
+    [ "sevseg1:DIG1", "uno:6", "gold", [ "v-57.6", "h105.6" ] ],
+    [ "sevseg1:DIG2", "uno:7", "green", [ "v-48", "h86.4" ] ],
+    [ "sevseg1:F", "uno:8", "blue", [ "v-38.4", "h67.2" ] ],
+    [ "sevseg1:G", "uno:9", "violet", [ "h0", "v18.36", "h57.6" ] ],
+    [ "sevseg1:D", "uno:10", "gray", [ "v27.96", "h57.6" ] ],
+    [ "sevseg1:E", "uno:11", "white", [ "v37.56", "h57.6" ] ],
+    [ "led12:A", "uno:3", "limegreen", [ "v28.8", "h-28.8" ] ],
+    [ "led13:A", "uno:2", "yellow", [ "v0", "h9.6", "v105.6", "h-28.8" ] ],
+    [ "led1:A", "uno:1", "cyan", [ "v0", "h19.2", "v172.8", "h-28.8" ] ],
+    [ "uno:GND.3", "led1:C", "black", [ "v19.1", "h109.6", "v-460.8", "h-57.6", "v57.6" ] ],
+    [ "uno:GND.3", "led13:C", "black", [ "v19.1", "h109.6", "v-460.8", "h-57.6", "v105.6" ] ],
+    [ "uno:GND.3", "led12:C", "black", [ "v19.1", "h109.6", "v-460.8", "h-57.6", "v172.8" ] ],
+    [ "uno:GND.3", "btn1:1.l", "black", [ "v19.1", "h109.6", "v-460.8", "h-355.2" ] ],
+    [ "btn1:2.r", "uno:5V", "red", [ "v297.8", "h268.6" ] ],
+    [ "uno:12", "sevseg1:C", "purple", [ "v-38.4", "h-66.7", "v-47.16" ] ],
+    [ "uno:13", "btn1:1.r", "#8f4814", [ "v-28.8", "h-76.4", "v-38.4" ] ]
+  ],
+  "dependencies": {}
+}

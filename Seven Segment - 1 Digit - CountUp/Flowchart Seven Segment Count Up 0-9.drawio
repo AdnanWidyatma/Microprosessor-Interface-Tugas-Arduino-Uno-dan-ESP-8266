@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Halaman-1" id="jUtXrc7KC1zJzlpGc_CH">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-2" target="4mq-BHif9cVcSKx0UIKf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-4" target="4mq-BHif9cVcSKx0UIKf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-4" value="Deklarasi Variabel&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-bullet&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Pin untuk 7-Segment (a, b, c, d, e, f, g)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1115" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-5" target="4mq-BHif9cVcSKx0UIKf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-5" value="Pinmode sebagai OUTPUT (&lt;span class=&quot;hljs-selector-tag&quot;&gt;a&lt;/span&gt;, &lt;span class=&quot;hljs-selector-tag&quot;&gt;b&lt;/span&gt;, c, d, e, f, g,)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-1117.5" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-6" target="4mq-BHif9cVcSKx0UIKf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-6" value="START LOOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-8" target="4mq-BHif9cVcSKx0UIKf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-8" value="Panggil Fungsi angka0();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-980" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-10" target="4mq-BHif9cVcSKx0UIKf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-10" value="Panggil Fungsi clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-810" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-12" target="4mq-BHif9cVcSKx0UIKf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-12" value="Panggil Fungsi angka1();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-810" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-16" target="4mq-BHif9cVcSKx0UIKf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-16" value="Panggil Fungsi clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-810" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-18" target="4mq-BHif9cVcSKx0UIKf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-18" value="Panggil Fungsi angka2();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-20" target="4mq-BHif9cVcSKx0UIKf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-20" value="Panggil Fungsi&amp;nbsp; clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-22" target="4mq-BHif9cVcSKx0UIKf-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-22" value="Panggil Fungsi&amp;nbsp; angka3();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-24" target="4mq-BHif9cVcSKx0UIKf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-24" value="Panggil Fungsi&amp;nbsp; angka4&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-650%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-26" target="4mq-BHif9cVcSKx0UIKf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-26" value="Panggil Fungsi&amp;nbsp; clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-28" target="4mq-BHif9cVcSKx0UIKf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-28" value="Panggil Fungsi&amp;nbsp; angka5();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-30" target="4mq-BHif9cVcSKx0UIKf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-30" value="Panggil Fungsi&amp;nbsp; clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-32" target="4mq-BHif9cVcSKx0UIKf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-32" value="Panggil Fungsi&amp;nbsp; angka6();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-34" target="4mq-BHif9cVcSKx0UIKf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-34" value="Panggil Fungsi&amp;nbsp; clear();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-36" target="4mq-BHif9cVcSKx0UIKf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-36" value="Panggil Fungsi&amp;nbsp; angka7&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-38" target="4mq-BHif9cVcSKx0UIKf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-38" value="Panggil Fungsi&amp;nbsp; clear&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-40" target="4mq-BHif9cVcSKx0UIKf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-40" value="Panggil Fungsi&amp;nbsp; angka8&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-42" target="4mq-BHif9cVcSKx0UIKf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-42" value="Panggil Fungsi&amp;nbsp; clear&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-44" target="4mq-BHif9cVcSKx0UIKf-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-44" value="Panggil Fungsi&amp;nbsp; angka9&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-46" target="4mq-BHif9cVcSKx0UIKf-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-46" value="Panggil Fungsi&amp;nbsp; clear&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Panggil%20Fungsi%26amp%3Bnbsp%3B%20clear()%3B%22%20style%3D%22shape%3Dprocess%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BbackgroundOutline%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-490%22%20width%3D%22140%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;();" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4mq-BHif9cVcSKx0UIKf-49" target="4mq-BHif9cVcSKx0UIKf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mq-BHif9cVcSKx0UIKf-49" value="Kembali ke START LOOP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
